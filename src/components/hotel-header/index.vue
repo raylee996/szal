@@ -104,7 +104,7 @@ export default {
         .webTitle{
             color: #666666;
             img{
-                width: 2.21rem;
+                width: 2.7rem;
             }
         }
         .book{

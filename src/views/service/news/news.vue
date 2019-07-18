@@ -36,7 +36,7 @@ export default {
             classname: "common",
             newsList: [],
             errMsg: "",
-            currentArea: "森林世界"
+            currentArea: "森林水世界"
         }
     },
     mounted() {

@@ -132,6 +132,10 @@ export default {
             classname: "waterPark",
             bannerList: [
                 {
+                    img: require("./images/banner/2.jpg"),
+                    url: "javascript:;"
+                },
+                {
                     img: require("./images/banner/1.jpg"),
                     url: "javascript:;"
                 },

@@ -75,7 +75,7 @@ export default {
         }
     }
     .logo{
-        width: 2.65rem;
+        width: 2.7rem;
         margin-top: 0.4rem;
     }
 }

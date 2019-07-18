@@ -3,7 +3,7 @@
         <inner-header :text="text" :classname="classname"></inner-header>
         <div class="container">
             <zone-nav @switchZone="switchZone" :currentArea="currentArea"></zone-nav>
-            <ul class="strategy_list" v-for="item in strategyList">
+            <ul class="strategy_list" v-for="item in strategyList" :key='item.id'>
                 <li @click="routerGo(item.id)">
                     <div class="intro">
                         <h2 class="title">{{item.title}}</h2>
@@ -44,7 +44,7 @@ export default {
             classname: "common",
             strategyList: [],
             errMsg: "",
-            currentArea: this.$route.query.area || "森林世界"
+            currentArea: this.$route.query.area || "森林水世界"
         }
     },
     mounted() {

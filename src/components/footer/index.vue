@@ -42,14 +42,14 @@
             <div class="footer_link_menu_box" :class="{active: visibleSubNav == 0}">
                 <router-link class="subNavBtn" :to="{path: '/park/forestWorld/forestWorld'}">森林世界</router-link>
                 <router-link class="subNavBtn" :to="{path: '/park/waterWorld/waterWorld'}">森林水世界</router-link>
-                <router-link class="subNavBtn" :to="{path: '/park/forestTown/forestTown'}">森林小镇</router-link>
                 <router-link class="subNavBtn" :to="{path: '/park/waterPark/waterPark'}">四季恒温水乐园</router-link>
                 <router-link class="subNavBtn" :to="{path: '/park/suxiansen/suxiansen'}">苏鲜森餐厅</router-link>
+                <a class="subNavBtn" href='javascript:;'>森林小镇</a>
             </div>
             <div class="footer_link_menu_box" :class="{active: visibleSubNav == 1}">
                 <router-link class="subNavBtn" :to="{path: '/hotel/resortHotel/index'}">四季悦度假酒店</router-link>
                 <router-link class="subNavBtn" :to="{path: '/hotel/ramada/index'}">高新华美达</router-link>
-                <router-link :to="{path: '/hotel/ibis/index'}">浒关宜必思</router-link>
+                <router-link :to="{path: '/hotel/ibis/index'}">苏州乐园浒关酒店</router-link>
             </div>
             <div class="footer_link_menu_box" :class="{active: visibleSubNav == 2}">
                 <router-link class="subNavBtn" :to="{path: '/activity?type=activity'}">主题活动</router-link>
@@ -61,13 +61,13 @@
                 <router-link class="subNavBtn" :to="{path: '/strategy/consult'}">游客咨询</router-link>
             </div>
             <div class="footer_link_menu_box" :class="{active: visibleSubNav == 4}">
-                <router-link class="subNavBtn" :to="{path: '/service/ticket'}">景区票价</router-link>
+                <!-- <router-link class="subNavBtn" :to="{path: '/service/ticket'}">景区票价</router-link> -->
                 <!-- <router-link class="subNavBtn" :to="{path: '/service/map'}">景区地图</router-link> -->
-                <router-link class="subNavBtn" :to="{path: '/service/notice'}">游客须知</router-link>
-                <router-link class="subNavBtn" :to="{path: '/service/FAQ'}">常见问题</router-link>
-                <router-link class="subNavBtn" :to="{path: '/service/contactUs'}">联系我们</router-link>
-                <router-link class="subNavBtn" :to="{path: '/service/news'}">景区新闻</router-link>
-                <router-link class="subNavBtn" :to="{path: '/service/tips'}">温馨提示</router-link>
+                <!-- <router-link class="subNavBtn" :to="{path: '/service/notice'}">游客须知</router-link> -->
+                <!-- <router-link class="subNavBtn" :to="{path: '/service/FAQ'}">常见问题</router-link> -->
+                <!-- <router-link class="subNavBtn" :to="{path: '/service/contactUs'}">联系我们</router-link> -->
+                <!-- <router-link class="subNavBtn" :to="{path: '/service/news'}">景区新闻</router-link> -->
+                <router-link class="subNavBtn" :to="{path: '/service/tips'}">游园须知</router-link>
             </div>
         </div>
     </div>
@@ -149,14 +149,14 @@ export default {
         width: 100%;
         height: 0.8rem;
         margin-bottom: 0.25rem;
-        .active {
+        // .active {
         //   display: none;
-        }
-        &.active {
-          img {
+        // }
+        // &.active {
+          // img {
             // display: none;
-          }
-        }
+          // }
+        // }
       }
       &:nth-child(2) {
         .icon.active {

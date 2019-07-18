@@ -6,32 +6,57 @@
                 <scroll>
                     <ul class="room_list">
                         <li class="item">
-                            <img src="./images/test.jpg" alt="" class="thumbnail">
+                            <img src="./images/room_1_1.jpg" alt="" class="thumbnail">
                             <div class="intro">
-                                <h2>普通双床房</h2>
+                                <h2>普通大床房</h2>
                                 <ul>
                                     <li>
                                         <i></i>24小时客房
                                     </li>
                                     <li>
-                                        <i></i>无线高速上网
+                                        <i></i>无线网络
                                     </li>
                                     <li>
                                         <i></i>标准淋浴间
                                     </li>
                                     <li>
-                                        <i></i>1.8mx2.3m
+                                        <i></i>大床1.8*2m
                                     </li>
                                     <li>
                                         <i></i>液晶电视
                                     </li>
                                 </ul>
-                                <p class="price">平日价：<span>259</span> 元/间</p>
-                                <p class="price">假日价：<span>339</span> 元/间</p>
+                                <p class="price">平日价：<span>429</span> 元/间</p>
+                                <!-- <p class="price">假日价：<span>339</span> 元/间</p> -->
                             </div>
                         </li>
                         <li class="item">
-                            <img src="./images/test.jpg" alt="" class="thumbnail">
+                            <img src="./images/room_2_1.jpg" alt="" class="thumbnail">
+                            <div class="intro">
+                                <h2>高级大床房</h2>
+                                <ul>
+                                    <li>
+                                        <i></i>24小时客房
+                                    </li>
+                                    <li>
+                                        <i></i>无线网络
+                                    </li>
+                                    <li>
+                                        <i></i>标准淋浴间
+                                    </li>
+                                    <li>
+                                        <i></i>大床1.8*2m
+                                    </li>
+                                    <li>
+                                        <i></i>液晶电视
+                                    </li>
+                                </ul>
+                                <p class="price">平日价：<span>509</span> 元/间</p>
+                                <!-- <p class="price">假日价：<span>339</span> 元/间</p> -->
+                            </div>
+                        </li>
+                        <li class="item">
+                            <img src="./images/room_3_1.jpg" alt="" class="thumbnail">
                             <div class="intro">
                                 <h2>普通双床房</h2>
                                 <ul>
@@ -39,20 +64,45 @@
                                         <i></i>24小时客房
                                     </li>
                                     <li>
-                                        <i></i>无线高速上网
+                                        <i></i>无线网络
                                     </li>
                                     <li>
                                         <i></i>标准淋浴间
                                     </li>
                                     <li>
-                                        <i></i>1.8mx2.3m
+                                        <i></i>双床1m*2m
                                     </li>
                                     <li>
                                         <i></i>液晶电视
                                     </li>
                                 </ul>
-                                <p class="price">平日价：<span>259</span> 元/间</p>
-                                <p class="price">假日价：<span>339</span> 元/间</p>
+                                <p class="price">平日价：<span>509</span> 元/间</p>
+                                <!-- <p class="price">假日价：<span>339</span> 元/间</p> -->
+                            </div>
+                        </li>
+                        <li class="item">
+                            <img src="./images/room_4_1.jpg" alt="" class="thumbnail">
+                            <div class="intro">
+                                <h2>园景双床房</h2>
+                                <ul>
+                                    <li>
+                                        <i></i>24小时客房
+                                    </li>
+                                    <li>
+                                        <i></i>无线网络
+                                    </li>
+                                    <li>
+                                        <i></i>标准淋浴间
+                                    </li>
+                                    <li>
+                                        <i></i>双床1m*2m
+                                    </li>
+                                    <li>
+                                        <i></i>液晶电视
+                                    </li>
+                                </ul>
+                                <p class="price">平日价：<span>629</span> 元/间</p>
+                                <!-- <p class="price">假日价：<span>339</span> 元/间</p> -->
                             </div>
                         </li>
                     </ul>
