@@ -4,12 +4,12 @@
         <div class="container">
             <zone-nav @switchZone="switchZone"></zone-nav>
             <ul class="ticket_list">
-                <li class="item" v-show="showIndex == 0">
+                <li class="item" v-show="showIndex == 2">
                     <div class="ticket01">
                         <img src="./images/waitme.jpg" width="100%" alt="">
                     </div>
                 </li>
-                <li class="item" v-show="showIndex == 1">
+                <li class="item" v-show="showIndex == 3">
                     <div class="ticket01">
                         <table>
                             <tr>
@@ -29,7 +29,7 @@
                         <p>儿童游园须有成人监护，1.2米以下的儿童游玩相关游乐项目须有成人陪同。</p>
                     </div>
                 </li>
-                <li class="item" v-show="showIndex == 2">
+                <li class="item" v-show="showIndex == 0">
                     <div class="ticket01">
                         <table>
                             <tr>
@@ -83,7 +83,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="item" v-show="showIndex == 3">
+                <li class="item" v-show="showIndex == 1">
                     <div class="ticket01">
                         <table>
                             <tr>

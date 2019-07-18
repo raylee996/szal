@@ -1,43 +1,43 @@
 <template>
-    <div class="container-hook">
-        <inner-header :text="text" :classname="classname"></inner-header>
-        <div class="container">
-            <ul class="park_list">
-                <li class="item">
-                    <router-link :to="{path: '/park/forestWorld/forestWorld'}">森林世界</router-link>
-                    <div class="thumbnail">
-                        <img src="./images/1.jpg" alt="">
-                    </div>
-                </li>
-                <li class="item">
-                    <router-link :to="{path: '/park/waterWorld/waterWorld'}">森林水世界</router-link>
-                    <div class="thumbnail">
-                        <img src="./images/3.jpg" alt="">
-                    </div>
-                    <img src="./images/coming.png" class="coming" alt="">
-                </li>
-                <li class="item">
-                    <router-link :to="{path: '/park/forestTown/forestTown'}">森林小镇</router-link>
-                    <div class="thumbnail">
-                        <img src="./images/2.jpg" alt="">
-                    </div>
-                </li>
-                <li class="item">
-                    <router-link :to="{path: '/park/waterPark/waterPark'}">四季恒温水乐园</router-link>
-                    <div class="thumbnail">
-                        <img src="./images/4.jpg" alt="">
-                    </div>
-                </li>
-                <li class="item">
-                    <router-link :to="{path: '/park/suxiansen/suxiansen'}">苏鲜森餐厅</router-link>
-                    <div class="thumbnail">
-                        <img src="./images/5.jpg" alt="">
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <sticky-footer></sticky-footer>
+  <div class="container-hook">
+    <inner-header :text="text" :classname="classname"></inner-header>
+    <div class="container">
+      <ul class="park_list">
+        <li class="item">
+          <router-link :to="{path: '/park/waterWorld/waterWorld'}">森林水世界</router-link>
+          <div class="thumbnail">
+            <img src="./images/3.jpg" alt />
+          </div>
+          <!-- <img src="./images/coming.png" class="coming" alt=""> -->
+        </li>
+        <li class="item">
+          <router-link :to="{path: '/park/waterPark/waterPark'}">四季恒温水乐园</router-link>
+          <div class="thumbnail">
+            <img src="./images/4.jpg" alt />
+          </div>
+        </li>
+        <li class="item">
+          <router-link :to="{path: '/park/forestWorld/forestWorld'}">森林世界</router-link>
+          <div class="thumbnail">
+            <img src="./images/1.jpg" alt />
+          </div>
+        </li>
+        <li class="item">
+          <router-link :to="{path: '/park/suxiansen/suxiansen'}">苏鲜森餐厅</router-link>
+          <div class="thumbnail">
+            <img src="./images/5.jpg" alt />
+          </div>
+        </li>
+        <li class="item">
+          <a href='javascript:;'>森林小镇</a>
+          <div class="thumbnail">
+            <img src="./images/2.jpg" alt />
+          </div>
+        </li>
+      </ul>
     </div>
+    <sticky-footer></sticky-footer>
+  </div>
 </template>
 
 <script>
@@ -45,17 +45,17 @@ import innerHeader from "components/inner-header/index";
 import stickyFooter from "components/footer/index";
 
 export default {
-    data() {
-        return {
-            text: "旅游景区",
-            classname: "common"
-        }
-    },
-    components: {
-        innerHeader,
-        stickyFooter
-    }
-}
+  data() {
+    return {
+      text: "旅游景区",
+      classname: "common"
+    };
+  },
+  components: {
+    innerHeader,
+    stickyFooter
+  }
+};
 </script>
 
 <style lang="less" scoped>
@@ -77,11 +77,11 @@ export default {
       border-radius: 1rem;
       overflow: hidden;
       //   transform: rotateZ(0);
-      .coming{
-          width: 1.27rem;
-          position: absolute;
-          right: 0.5rem;
-          top: 0.2rem;
+      .coming {
+        width: 1.27rem;
+        position: absolute;
+        right: 0.5rem;
+        top: 0.2rem;
       }
       a {
         display: flex;

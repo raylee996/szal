@@ -20,7 +20,7 @@
 				<div class="banner_wrap">
 					<div class="swiper-container banner">
 						<div class="swiper-wrapper">
-							<div class="swiper-slide" v-for="item in bannerList">
+							<div class="swiper-slide" v-for="item in bannerList" :key="item.img">
 								<a :href="item.url">
 									<img :src="item.img" alt="">
 								</a>
@@ -53,7 +53,7 @@
 					</div>
 					<div class="activity-hook">
                         <ul class="activity_list">
-                            <li v-for="(item, index) in acticityList">
+                            <li v-for="(item, index) in acticityList" :key="item.image">
                                 <a v-if="item.wapurl" :href="item.wapurl" :key="index">
                                     <img :src="item.image" alt="">
                                     <h2>{{item.title}}</h2>
@@ -80,7 +80,7 @@
 						</div>
 						<div class="discount-hook">
 								<ul class="discount_list">
-										<li v-for="(item, index) in discountList">
+										<li v-for="(item, index) in discountList" :key="item.img">
 												<a :href="item.url" :key="index">
 														<img :src="item.img" alt="">
 														<h2>{{item.title}}</h2>
@@ -136,6 +136,10 @@ export default {
                 {
                     img: require("./images/banner/2.jpg"),
                     url: "http://www.szal.cn/activity/2019waterWorld/#/home"
+                },
+                 {
+                    img: require("./images/banner/3.jpg"),
+                    url: "javascript:;"
                 },
                 {
                     img: require("./images/banner/1.jpg"),

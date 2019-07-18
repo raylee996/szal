@@ -16,7 +16,7 @@
                     </div>
                 </li>
                 <li class="item">
-                    <router-link :to="{path: '/hotel/ibis/index'}">浒关宜必思</router-link>
+                    <router-link :to="{path: '/hotel/ibis/index'}">苏州乐园浒关酒店</router-link>
                     <div class="thumbnail">
                         <img src="./images/3.jpg" alt="">
                     </div>

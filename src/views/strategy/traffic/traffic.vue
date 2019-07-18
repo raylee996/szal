@@ -4,11 +4,11 @@
         <div class="container">
             <zone-nav @switchZone="switchZone"></zone-nav>
             <div class="traffic_route_hook">
-                <div class="traffic_route" v-show="showIndex == 0">
+                <div class="traffic_route" v-show="showIndex == 2">
                     <div id="bdMap1"></div>
                     <p style="font-size: 0.36rem; text-align: center; padding: 0.5rem; color: #333;">建设中...</p>
                 </div>
-                <div class="traffic_route" v-show="showIndex == 1">
+                <div class="traffic_route" v-show="showIndex == 3">
                     <div id="bdMap2"></div>
                     <div class="traffic_item">
                         <div class="traffic_title">
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="traffic_route" v-show="showIndex == 2">
+                <div class="traffic_route" v-show="showIndex == 0">
                     <div id="bdMap3"></div>
                     <div class="traffic_item">
                         <div class="traffic_title">
@@ -63,7 +63,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="traffic_route" v-show="showIndex == 3">
+                <div class="traffic_route" v-show="showIndex == 1">
                     <div id="bdMap4"></div>
                     <div class="traffic_item">
                         <div class="traffic_title">
